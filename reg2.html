@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script language="javascript">
+    function fvalid()
+  {
+     if(document.f1.firstname.value==""){
+       alert ("Invalid name.....");
+      document.f1.firstname.focus;
+            return false;     
+     }  
+     
+                   
+     if(document.f1.lastname.value==""){
+       alert ("Invalid name.....");
+      document.f1.lastname.focus;
+            return false;     
+     }  
+     
+     if(document.f1.dob.value==""){
+       alert ("Please enter DOB.....");
+      document.f1.dob.focus;
+            return false;     
+     } 
+
+     if(document.f1.userid.value==""){
+       alert ("Choose an Userid.....");
+      document.f1.userid.focus;
+            return false;     
+     }   
+     if(document.f1.email.value==""){
+       alert ("Enter a valid email ID.....");
+      document.f1.email.focus;
+            return false;     
+     }  
+     if(document.f1.phone.value==""){
+       alert ("Enter your Phone Number.....");
+      document.f1.phone.focus;
+            return false;     
+     }  
+     document.f1.action="userreg.php";
+     document.f1.submit();
+  }
+</script>
+    <title>My Journel/Register</title>
+    
+	<link rel="stylesheet" type="text/css" href="css/fontawesome-free-5.15.1-web/css/all.css">
+	<link rel="stylesheet" href="css/stylereg.css">
+  </head>
+  <body>
+    <div class="container">
+      <button class="btnback" onclick="location.href='index.html' ">
+      BACK<i class="fas fa-backward"></i></button>
+    </div>
+  <img src="capture.jpg" alt="My Journel" style="float:left; width: 170px; padding-left: 70px; padding-top: 70px; height: auto" ;>
+<form name=f1 method= post>
+<div class="login-box">
+  <h1>----------</h1>
+  <h1>----------</h1>
+  <h1>----------</h1>
+  <h1>----------</h1>
+  <h1>Sign Up</h1>
+  <div class="textbox">
+    Firstname
+    <i class="far fa-user"></i>
+    <input type=text name=firstname size=15 maxlength=15 placeholder='enter firstname'>
+  </div>
+
+  <div class="textbox">
+    Middlename
+    <i class="far fa-user"></i>
+    <input type=text name=middlename size=10 maxlength=10 placeholder='enter middlename'>
+	
+  </div>
+  <div class="textbox">
+    Lastname
+    <i class="far fa-user"></i>
+    <input type=text name=lastname size=10 maxlength=10 placeholder='enter lastname'>
+  </div>
+
+  <div class="textbox">
+    Date of Birth
+    <i class="far fa-user"></i>
+    <input type=date name=dob>
+  
+  </div>
+  <div class="textbox">
+    Gender
+    <i class="far fa-user"></i>
+    <input type=text name=gender size=6 maxlength=6 placeholder='enter gender'>
+  </div>
+
+  <div class="textbox">
+    User ID
+    <i class="far fa-user"></i>
+    <input type=text name=userid size=20 maxlength=20 placeholder='enter login id'>
+  
+  </div>
+  <div class="textbox">
+    Password
+    <i class="far fa-user"></i>
+    <input type=text name=password size=30 maxlength=30 placeholder='enter password'>
+  </div>
+
+  <div class="textbox">
+    Address
+    <i class="far fa-user"></i>
+    <input type=text name=address size=30 maxlength=30 placeholder='enter address'>
+  
+  </div>
+  <div class="textbox">
+    Email
+    <i class="far fa-user"></i>
+   <input type=text name=email size=20 maxlength=20 placeholder='enter email'>
+  </div>
+
+  <div class="textbox">
+    Phone
+    <i class="far fa-user"></i>
+    <input type=text name=phone size=12 maxlength=12 placeholder='enter phone number'>
+  </div>
+
+  <input type=submit class="btn" value="Sign in" value=Register onclick='fvalid();'>
+  
+</div>
+  </body>
+</html>

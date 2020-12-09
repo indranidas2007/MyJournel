@@ -1,0 +1,90 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url("back.jpg");
+  background-size: cover;
+}
+
+
+h3{
+  font-family: Verdana, Geneva, sans-serif;
+  color:wheat;
+  
+}
+
+
+h1{
+  color:red;
+  font-size: 1.5rem;
+  background-color:none;
+  padding:10px;
+}
+.wrapper{
+  margin: 0 auto;
+  width: 1000px;
+  background: #2b2a3f;
+}
+
+.container{
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.btnback{
+  border:1px solid #2b2a3f;
+  background: none;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 10px;
+  width: 90px;
+  border-radius: 10px;
+  position:relative;
+  background-color:white ;
+}
+.site-content-section-inner {
+  padding: 10px;
+  text-align: center;
+}
+.admin-sub-heading {
+	text-align: center;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position:relative;
+  
+}
+.section-heading {
+	font-size: 32px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+#menu{
+  text-align: center;
+  font-size: 44px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position:relative;
+}
+.buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 16px;
+	font-weight: 600;
+	color: rgb(24, 28, 39);
+	background: white;
+	outline: none;
+	cursor: pointer;
+	border: 2px solid black;
+	border-radius: 20px;
+  transition: .4s;
+  margin: 20px;
+}
+.buttons .btn1 .btn2 .btn3{
+	margin-left: 30px;
+}
+.buttons button:hover{
+	background: red;
+}
+.container2{
+  text-align: center;
+}

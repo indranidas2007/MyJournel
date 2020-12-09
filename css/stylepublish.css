@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url("doodle.jpg");
+    background-size: cover;
+  }
+  .container{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .btn{
+    border:1px solid #2b2a3f;
+    background: none;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 10px;
+    width: 90px;
+    border-radius: 10px;
+    position:relative;
+    background-color:white ;
+  }

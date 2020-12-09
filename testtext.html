@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Side Navigation Bar</title>
+	
+		
+	
+</head>
+<body>
+
+<form method="post" action="submittext.php">
+    <textarea name="editor" id="editor" rows="10" cols="80">
+    This is my textarea to be replaced with HTML editor.
+    </textarea>
+ <script src="ckeditor/ckeditor.js"></script>
+ <script>
+CKEDITOR.replace('editor');
+</script>
+    <input type="submit" name="submit" value="SUBMIT">
+</form>
+</body>
+</html>
